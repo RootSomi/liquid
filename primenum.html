@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="Number" id="kaka">
+    <button onclick="number()">Click</button>
+</body>
+<script>
+    function number(){
+    let kaka=document.getElementById("kaka").value;
+    let i
+    for( i=2; i<kaka ; i++){
+        let z= kaka%i;
+        if(z==0)
+        {
+        alert('Prime nahi hai')
+    return
+        }
+        
+        
+    }
+    console.log(i);
+    if(i==kaka)
+        {
+            alert('Prime')
+        }
+    }
+</script>
+</html>
